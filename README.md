@@ -1,12 +1,12 @@
-👋 Hi, I'm Savan Kansagara
+# 👋 Hi, I'm Savan Kansagara
 
-Full-Stack Developer | AI/ML & Generative AI
+### Full-Stack Developer | AI/ML & Generative AI
 
-I build full-stack web applications, backend systems, and AI-powered solutions with a focus on clean architecture, scalable APIs, and practical AI integrations.
+I build full-stack web applications, backend systems, and AI-powered solutions with a focus on scalable APIs, clean architecture, and practical AI integrations.
 
-Currently working with Python, AI/ML, Generative AI, and full-stack development.
+I'm currently working with **Python, AI/ML, Generative AI, and full-stack development**.
 
-🚀 What I Build
+## 🚀 What I Build
 
 - 🤖 AI Agents & LLM Applications
 - 🧠 Retrieval-Augmented Generation (RAG) Systems
@@ -17,86 +17,70 @@ Currently working with Python, AI/ML, Generative AI, and full-stack development.
 - 🔗 LLM & Third-Party API Integrations
 - 🗄️ Database-Driven Applications
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Languages
+### Languages
+`Python` `JavaScript` `TypeScript` `SQL` `C`
 
-"Python" "JavaScript" "TypeScript" "SQL"
+### Frontend
+`React.js` `Next.js` `Redux Toolkit` `TanStack Query` `React Hook Form` `Tailwind CSS`
 
-Frontend
+### Backend
+`Node.js` `Express.js` `REST APIs` `Prisma` `Mongoose` `JWT` `Redis` `Socket.IO`
 
-"React.js" "Next.js" "Redux Toolkit" "TanStack Query" "React Hook Form" "Tailwind CSS"
+### Databases
+`MongoDB` `MySQL` `Pinecone`
 
-Backend
+### AI / ML
+`Generative AI` `LLMs` `RAG` `LangChain` `Google Gemini` `Groq` `Vector Embeddings` `Vector Search` `Scikit-learn` `NLP`
 
-"Node.js" "Express.js" "REST APIs" "Prisma" "Mongoose" "JWT" "Redis"
+### Tools & Platforms
+`Git` `GitHub` `Docker` `Postman` `Vercel` `Render` `MongoDB Atlas`
 
-Databases
+## ⭐ Featured Projects
 
-"MongoDB" "MySQL" "Pinecone"
+### 🤖 DocuMind AI — RAG Chatbot
 
-AI / ML
+A full-stack RAG application that allows users to upload documents and ask questions based on their content.
 
-"Generative AI" "LLMs" "RAG" "LangChain" "Google Gemini" "Groq" "Vector Embeddings" "Vector Search" "Scikit-learn"
+**Tech:** React, Node.js, Express, LangChain, Pinecone, Gemini Embeddings, Groq
 
-Tools & Platforms
+🔗 [Live Demo](https://docu-mind-ai-zeta.vercel.app/)
+🔗 [Source Code](https://github.com/savankansagara1/DocuMind-AI)
 
-"Git" "GitHub" "Docker" "Postman" "Vercel" "Render" "MongoDB Atlas"
+### 💼 HireForge AI — AI Interview Platform
 
-⭐ Featured Projects
+An AI-powered interview preparation platform with AI-generated reports and ATS-optimized resume generation.
 
-🤖 DocuMind AI — RAG Knowledge Assistant
+**Tech:** React, Node.js, Express, MongoDB, Gemini API, Puppeteer
 
-A full-stack RAG application that allows users to upload PDF documents and ask questions based on their content.
+🔗 [Live Demo](https://hire-forge-ai.vercel.app/)
+🔗 [Source Code](https://github.com/savankansagara1/HireForge-AI)
 
-Tech: React, Node.js, Express, LangChain, Pinecone, Google Generative AI Embeddings, Groq
+### 🔗 URL Shortener
 
-🔗 "Live Demo" (https://docu-mind-ai-zeta.vercel.app/)
-🔗 "Source Code" (https://github.com/savankansagara1/DocuMind-AI)
+A full-stack URL shortening application with authentication, URL management, click tracking, and a React frontend.
 
-Features include document chunking, embeddings, semantic vector search, document-specific namespaces, contextual conversation memory, and general AI fallback.
+**Tech:** React, Node.js, Express, MongoDB, Redux Toolkit
 
-💼 HireForge AI — AI Interview Preparation Platform
+🔗 [Live Demo](https://url-shortner-mu-three.vercel.app/)
+🔗 [Source Code](https://github.com/savankansagara1/Url-Shortner)
 
-An AI-powered interview preparation platform that generates personalized interview strategies, skill-gap analysis, preparation plans, and ATS-optimized resumes.
+## 💼 Experience
 
-Tech: React, Node.js, Express, MongoDB, Gemini API, Puppeteer
+### Software Developer Intern — eSparkBiz Technologies
 
-🔗 "Live Demo" (https://hire-forge-ai.vercel.app/)
-🔗 "Source Code" (https://github.com/savankansagara1/HireForge-AI)
+Working on production-grade full-stack applications using React, Node.js, TypeScript, MySQL, Redis, REST APIs, and Generative AI.
 
-🔗 URL Shortener
+Built backend modules, AI-powered features, Redis-backed operations, live order tracking, and customer-facing React functionality.
 
-A full-stack URL shortening platform with authentication, URL management, click tracking, and a React frontend.
+## 📫 Connect With Me
 
-Tech: React, Node.js, Express, MongoDB, Redux Toolkit
-
-🔗 "Live Demo" (https://url-shortner-mu-three.vercel.app/)
-🔗 "Source Code" (https://github.com/savankansagara1/Url-Shortner)
-
-💼 Experience
-
-Software Developer Intern
-
-eSparkBiz Technologies
-
-Working on production-grade full-stack applications involving React, Node.js, TypeScript, REST APIs, MySQL, Redis, and Generative AI.
-
-Built backend modules, AI-powered features, Redis-backed operations, and customer-facing React functionality for a multi-tenant food delivery platform.
-
-📫 Let's Connect
-
-- 💼 "LinkedIn" (https://www.linkedin.com/in/savan-kansagara/)
-- 🐙 "GitHub" (https://github.com/savankansagara1)
+- 💼 [LinkedIn](YOUR_LINKEDIN_URL)
+- 🐙 [GitHub](https://github.com/savankansagara1)
 
 ---
 
-💡 Open to freelance opportunities in
+### 💡 Areas of Interest
 
-Full-Stack Development · Python · AI/ML · Generative AI · RAG · LLM Integrations · React · Node.js · REST APIs
-
-
-<!---
-savankansagara1/savankansagara1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+**Full-Stack Development · Python · AI/ML · Generative AI · RAG · LLM Applications · React · Node.js · REST APIs**
