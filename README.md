@@ -68,7 +68,7 @@ A full-stack URL shortening application with authentication, URL management, cli
 
 ## 💼 Experience
 
-### Software Developer Intern — eSparkBiz Technologies
+### Software Developement Engineer  I — eSparkBiz Technologies
 
 Working on production-grade full-stack applications using React, Node.js, TypeScript, MySQL, Redis, REST APIs, and Generative AI.
 
