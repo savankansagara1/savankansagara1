@@ -109,19 +109,42 @@ Optional: signing in on the stats-extended site lets its cards count private con
 
 <h2 align="center">🧠 About</h2>
 
-I build LLM-powered products end to end, from the database schema and the REST API to the React screen someone actually clicks. Three things shape how I work:
+<p align="center"><b>I build the AI and the product around it.</b><br/>
+<sub>LLM-powered products, end to end: from the database schema and the REST API to the React screen someone actually clicks.</sub></p>
 
-- **Grounded, reliable AI.** An agent's answers should come from real data, not from whatever the model feels like saying.
-- **Humans stay in control.** Before an agent does anything that changes state, it stops and asks for confirmation.
-- **The plumbing counts as much as the model call.** Schemas, auth, caching, tests and deployment decide whether an AI feature holds up.
+<table align="center">
+<tr>
+<td width="50%" valign="top" align="center"><img src="https://img.shields.io/badge/AI_%2F_ML_%26_GenAI-24283b?style=for-the-badge&labelColor=bf91f3&color=24283b" alt="AI %2F ML %26 GenAI" /><br/><br/>
+<sub>Agentic workflows and RAG pipelines in LangGraph and LangChain.<br/>Answers come from real data, not from whatever the model feels like saying.<br/>Before an agent changes anything, it stops and asks for confirmation.</sub></td>
+<td width="50%" valign="top" align="center"><img src="https://img.shields.io/badge/Full--Stack-24283b?style=for-the-badge&labelColor=70a5fd&color=24283b" alt="Full--Stack" /><br/><br/>
+<sub>FastAPI and Node backends, React interfaces.<br/>Schemas, auth, caching, tests and deployment get as much care as the model call.<br/>The part users see works as well as the part that thinks.</sub></td>
+</tr>
+</table>
+
+<p align="center"><sub>One request, start to finish</sub></p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Schema-24283b?style=flat-square&labelColor=38bdae&color=24283b" alt="Schema" /> ▸
+<img src="https://img.shields.io/badge/REST_API-24283b?style=flat-square&labelColor=38bdae&color=24283b" alt="REST API" /> ▸
+<img src="https://img.shields.io/badge/Agent_%2F_RAG-24283b?style=flat-square&labelColor=bf91f3&color=24283b" alt="Agent / RAG" /> ▸
+<img src="https://img.shields.io/badge/React_UI-24283b?style=flat-square&labelColor=70a5fd&color=24283b" alt="React UI" /> ▸
+<img src="https://img.shields.io/badge/Deployed-24283b?style=flat-square&labelColor=e0af68&color=24283b" alt="Deployed" />
+</p>
 
 <h2 align="center">🎯 Currently focused on</h2>
 
 <table align="center">
 <tr>
-<td width="33%" valign="top"><b>Multi-agent systems</b><br/><sub>An orchestrator plus specialised agents, not one giant prompt.</sub></td>
-<td width="33%" valign="top"><b>RAG quality</b><br/><sub>Chunking, retrieval, and grounding answers in a real database schema.</sub></td>
-<td width="33%" valign="top"><b>Human-in-the-loop design</b><br/><sub>Confirmation steps that keep a person in charge of state-changing actions.</sub></td>
+<td align="center" width="16%"><img src="https://img.shields.io/badge/AI-24283b?style=for-the-badge&labelColor=bf91f3&color=24283b" alt="AI" /></td>
+<td width="28%" valign="top"><b>Multi-agent systems</b><br/><sub>An orchestrator plus specialised agents, not one giant prompt.</sub></td>
+<td width="28%" valign="top"><b>RAG quality</b><br/><sub>Chunking, retrieval, and grounding answers in a real database schema.</sub></td>
+<td width="28%" valign="top"><b>Human-in-the-loop design</b><br/><sub>Confirmation steps that keep a person in charge of state-changing actions.</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/Full--Stack-24283b?style=for-the-badge&labelColor=70a5fd&color=24283b" alt="Full--Stack" /></td>
+<td valign="top"><b>Schemas and APIs</b><br/><sub>FastAPI and Node backends on well-designed data models.</sub></td>
+<td valign="top"><b>Auth, caching and tests</b><br/><sub>The plumbing that keeps an AI feature reliable in real use.</sub></td>
+<td valign="top"><b>React interfaces</b><br/><sub>Screens that make an agent's work easy to follow and confirm.</sub></td>
 </tr>
 </table>
 
@@ -130,7 +153,7 @@ I build LLM-powered products end to end, from the database schema and the REST A
 <div align="center">
 
 <b>Languages &amp; Core</b><br/>
-<a href="#-featured-projects"><img src="https://skillicons.dev/icons?i=py,ts,js,c&perline=10&theme=dark" alt="Python, TypeScript, JavaScript, C. Click to see where I use them" title="Python, TypeScript, JavaScript, C. Click to see where I use them" /></a><br/>
+<a href="#featured-projects"><img src="https://skillicons.dev/icons?i=py,ts,js,c&perline=10&theme=dark" alt="Python, TypeScript, JavaScript, C. Click to see where I use them" title="Python, TypeScript, JavaScript, C. Click to see where I use them" /></a><br/>
 <sub>Languages</sub><br/>
 <img src="https://img.shields.io/badge/Python-24283b?style=flat-square&labelColor=24283b&logo=python&logoColor=70a5fd" alt="Python" />
 <img src="https://img.shields.io/badge/TypeScript-24283b?style=flat-square&labelColor=24283b&logo=typescript&logoColor=70a5fd" alt="TypeScript" />
@@ -150,7 +173,7 @@ I build LLM-powered products end to end, from the database schema and the REST A
 <br/><br/>
 
 <b>Frontend</b><br/>
-<a href="#-featured-projects"><img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind&perline=10&theme=dark" alt="React, Next.js, Redux Toolkit, Tailwind CSS. Click to see where I use them" title="React, Next.js, Redux Toolkit, Tailwind CSS. Click to see where I use them" /></a><br/>
+<a href="#featured-projects"><img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind&perline=10&theme=dark" alt="React, Next.js, Redux Toolkit, Tailwind CSS. Click to see where I use them" title="React, Next.js, Redux Toolkit, Tailwind CSS. Click to see where I use them" /></a><br/>
 <img src="https://img.shields.io/badge/React-24283b?style=flat-square&labelColor=24283b&logo=react&logoColor=bf91f3" alt="React" />
 <img src="https://img.shields.io/badge/Next.js-24283b?style=flat-square&labelColor=24283b&logo=nextdotjs&logoColor=bf91f3" alt="Next.js" />
 <img src="https://img.shields.io/badge/Redux_Toolkit-24283b?style=flat-square&labelColor=24283b&logo=redux&logoColor=bf91f3" alt="Redux Toolkit" />
@@ -160,7 +183,7 @@ I build LLM-powered products end to end, from the database schema and the REST A
 <br/><br/>
 
 <b>Backend / APIs &amp; Databases</b><br/>
-<a href="#-featured-projects"><img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,mongodb,mysql,redis,prisma&perline=10&theme=dark" alt="FastAPI, Node.js, Express, PostgreSQL, MongoDB, MySQL, Redis, Prisma. Click to see where I use them" title="FastAPI, Node.js, Express, PostgreSQL, MongoDB, MySQL, Redis, Prisma. Click to see where I use them" /></a><br/>
+<a href="#featured-projects"><img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,mongodb,mysql,redis,prisma&perline=10&theme=dark" alt="FastAPI, Node.js, Express, PostgreSQL, MongoDB, MySQL, Redis, Prisma. Click to see where I use them" title="FastAPI, Node.js, Express, PostgreSQL, MongoDB, MySQL, Redis, Prisma. Click to see where I use them" /></a><br/>
 <img src="https://img.shields.io/badge/FastAPI-24283b?style=flat-square&labelColor=24283b&logo=fastapi&logoColor=38bdae" alt="FastAPI" />
 <img src="https://img.shields.io/badge/Node.js-24283b?style=flat-square&labelColor=24283b&logo=nodedotjs&logoColor=38bdae" alt="Node.js" />
 <img src="https://img.shields.io/badge/Express-24283b?style=flat-square&labelColor=24283b&logo=express&logoColor=38bdae" alt="Express" />
@@ -175,7 +198,7 @@ I build LLM-powered products end to end, from the database schema and the REST A
 <br/><br/>
 
 <b>Tools &amp; Platforms</b><br/>
-<a href="#-featured-projects"><img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,vercel,aws&perline=10&theme=dark" alt="Git, GitHub, Docker, Postman, VS Code, Vercel, AWS. Click to see where I use them" title="Git, GitHub, Docker, Postman, VS Code, Vercel, AWS. Click to see where I use them" /></a><br/>
+<a href="#featured-projects"><img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,vercel,aws&perline=10&theme=dark" alt="Git, GitHub, Docker, Postman, VS Code, Vercel, AWS. Click to see where I use them" title="Git, GitHub, Docker, Postman, VS Code, Vercel, AWS. Click to see where I use them" /></a><br/>
 <img src="https://img.shields.io/badge/Git-24283b?style=flat-square&labelColor=24283b&logo=git&logoColor=e0af68" alt="Git" />
 <img src="https://img.shields.io/badge/GitHub-24283b?style=flat-square&labelColor=24283b&logo=github&logoColor=e0af68" alt="GitHub" />
 <img src="https://img.shields.io/badge/Docker-24283b?style=flat-square&labelColor=24283b&logo=docker&logoColor=e0af68" alt="Docker" />
@@ -189,6 +212,7 @@ I build LLM-powered products end to end, from the database schema and the REST A
 
 <br/>
 
+<a name="featured-projects"></a>
 <h2 align="center">🚀 Featured Projects</h2>
 
 <table align="center">
@@ -230,8 +254,14 @@ I build LLM-powered products end to end, from the database schema and the REST A
 <img src="https://img.shields.io/badge/endpoints-20-70a5fd?style=flat-square&labelColor=1a1b27" alt="endpoints: 20" /></p>
 
 <b>Stack</b><br/>
-<img src="https://skillicons.dev/icons?i=py,fastapi,postgres,react&theme=dark" alt="Multi-AI Agentic E-Commerce System stack icons" /><br/>
-<sub><code>Python</code> · <code>FastAPI</code> · <code>LangGraph</code> · <code>LangChain</code> · <code>PostgreSQL</code> · <code>SQLAlchemy</code> · <code>React</code> · <code>LangSmith</code></sub>
+<img src="https://img.shields.io/badge/Python-24283b?style=flat-square&labelColor=24283b&logo=python&logoColor=70a5fd" alt="Python" />
+<img src="https://img.shields.io/badge/FastAPI-24283b?style=flat-square&labelColor=24283b&logo=fastapi&logoColor=38bdae" alt="FastAPI" />
+<img src="https://img.shields.io/badge/LangGraph-24283b?style=flat-square&labelColor=24283b&logo=langgraph&logoColor=38bdae" alt="LangGraph" />
+<img src="https://img.shields.io/badge/LangChain-24283b?style=flat-square&labelColor=24283b&logo=langchain&logoColor=38bdae" alt="LangChain" />
+<img src="https://img.shields.io/badge/PostgreSQL-24283b?style=flat-square&labelColor=24283b&logo=postgresql&logoColor=70a5fd" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/SQLAlchemy-24283b?style=flat-square&labelColor=24283b&logo=sqlalchemy&logoColor=70a5fd" alt="SQLAlchemy" />
+<img src="https://img.shields.io/badge/React-24283b?style=flat-square&labelColor=24283b&logo=react&logoColor=70a5fd" alt="React" />
+<img src="https://img.shields.io/badge/LangSmith-24283b?style=flat-square&labelColor=38bdae&color=24283b" alt="LangSmith" />
 
 <hr/>
 
@@ -250,8 +280,11 @@ I build LLM-powered products end to end, from the database schema and the REST A
 </ul>
 
 <b>Stack</b><br/>
-<img src="https://skillicons.dev/icons?i=react,nodejs,mongodb&theme=dark" alt="HireForge AI stack icons" /><br/>
-<sub><code>React</code> · <code>Node.js</code> · <code>MongoDB</code> · <code>Gemini API</code> · <code>Puppeteer</code></sub>
+<img src="https://img.shields.io/badge/React-24283b?style=flat-square&labelColor=24283b&logo=react&logoColor=70a5fd" alt="React" />
+<img src="https://img.shields.io/badge/Node.js-24283b?style=flat-square&labelColor=24283b&logo=nodedotjs&logoColor=9ece6a" alt="Node.js" />
+<img src="https://img.shields.io/badge/MongoDB-24283b?style=flat-square&labelColor=24283b&logo=mongodb&logoColor=9ece6a" alt="MongoDB" />
+<img src="https://img.shields.io/badge/Gemini_API-24283b?style=flat-square&labelColor=24283b&logo=googlegemini&logoColor=bf91f3" alt="Gemini API" />
+<img src="https://img.shields.io/badge/Puppeteer-24283b?style=flat-square&labelColor=24283b&logo=puppeteer&logoColor=9ece6a" alt="Puppeteer" />
 
 <hr/>
 
@@ -273,8 +306,13 @@ I build LLM-powered products end to end, from the database schema and the REST A
 <img src="https://img.shields.io/badge/session_memory-10_turns-70a5fd?style=flat-square&labelColor=1a1b27" alt="session memory: 10 turns" /></p>
 
 <b>Stack</b><br/>
-<img src="https://skillicons.dev/icons?i=react,nodejs,express&theme=dark" alt="DocuMind AI stack icons" /><br/>
-<sub><code>React</code> · <code>Node.js</code> · <code>Express</code> · <code>LangChain</code> · <code>Pinecone</code> · <code>Groq</code> · <code>Gemini Embeddings</code></sub>
+<img src="https://img.shields.io/badge/React-24283b?style=flat-square&labelColor=24283b&logo=react&logoColor=70a5fd" alt="React" />
+<img src="https://img.shields.io/badge/Node.js-24283b?style=flat-square&labelColor=24283b&logo=nodedotjs&logoColor=9ece6a" alt="Node.js" />
+<img src="https://img.shields.io/badge/Express-24283b?style=flat-square&labelColor=24283b&logo=express&logoColor=c0caf5" alt="Express" />
+<img src="https://img.shields.io/badge/LangChain-24283b?style=flat-square&labelColor=24283b&logo=langchain&logoColor=38bdae" alt="LangChain" />
+<img src="https://img.shields.io/badge/Pinecone-24283b?style=flat-square&labelColor=38bdae&color=24283b" alt="Pinecone" />
+<img src="https://img.shields.io/badge/Groq-24283b?style=flat-square&labelColor=f55036&color=24283b" alt="Groq" />
+<img src="https://img.shields.io/badge/Gemini_Embeddings-24283b?style=flat-square&labelColor=24283b&logo=googlegemini&logoColor=bf91f3" alt="Gemini Embeddings" />
 
 <hr/>
 
@@ -296,8 +334,14 @@ I build LLM-powered products end to end, from the database schema and the REST A
 <img src="https://img.shields.io/badge/AI_tools-9-70a5fd?style=flat-square&labelColor=1a1b27" alt="AI tools: 9" /></p>
 
 <b>Stack</b><br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,ts,prisma,mysql,redis,react&theme=dark" alt="Quick Bites stack icons" /><br/>
-<sub><code>Node.js</code> · <code>Express</code> · <code>TypeScript</code> · <code>Prisma</code> · <code>MySQL</code> · <code>Redis</code> · <code>Gemini API</code> · <code>React</code></sub>
+<img src="https://img.shields.io/badge/Node.js-24283b?style=flat-square&labelColor=24283b&logo=nodedotjs&logoColor=9ece6a" alt="Node.js" />
+<img src="https://img.shields.io/badge/Express-24283b?style=flat-square&labelColor=24283b&logo=express&logoColor=c0caf5" alt="Express" />
+<img src="https://img.shields.io/badge/TypeScript-24283b?style=flat-square&labelColor=24283b&logo=typescript&logoColor=70a5fd" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Prisma-24283b?style=flat-square&labelColor=24283b&logo=prisma&logoColor=c0caf5" alt="Prisma" />
+<img src="https://img.shields.io/badge/MySQL-24283b?style=flat-square&labelColor=24283b&logo=mysql&logoColor=70a5fd" alt="MySQL" />
+<img src="https://img.shields.io/badge/Redis-24283b?style=flat-square&labelColor=24283b&logo=redis&logoColor=f7768e" alt="Redis" />
+<img src="https://img.shields.io/badge/Gemini_API-24283b?style=flat-square&labelColor=24283b&logo=googlegemini&logoColor=bf91f3" alt="Gemini API" />
+<img src="https://img.shields.io/badge/React-24283b?style=flat-square&labelColor=24283b&logo=react&logoColor=70a5fd" alt="React" />
 
 <hr/>
 
@@ -316,8 +360,12 @@ I build LLM-powered products end to end, from the database schema and the REST A
 </ul>
 
 <b>Stack</b><br/>
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,redux&theme=dark" alt="URL Shortener stack icons" /><br/>
-<sub><code>React</code> · <code>Node.js</code> · <code>Express</code> · <code>MongoDB</code> · <code>TanStack Router/Query</code> · <code>Redux Toolkit</code></sub>
+<img src="https://img.shields.io/badge/React-24283b?style=flat-square&labelColor=24283b&logo=react&logoColor=70a5fd" alt="React" />
+<img src="https://img.shields.io/badge/Node.js-24283b?style=flat-square&labelColor=24283b&logo=nodedotjs&logoColor=9ece6a" alt="Node.js" />
+<img src="https://img.shields.io/badge/Express-24283b?style=flat-square&labelColor=24283b&logo=express&logoColor=c0caf5" alt="Express" />
+<img src="https://img.shields.io/badge/MongoDB-24283b?style=flat-square&labelColor=24283b&logo=mongodb&logoColor=9ece6a" alt="MongoDB" />
+<img src="https://img.shields.io/badge/TanStack_Router%2FQuery-24283b?style=flat-square&labelColor=24283b&logo=reactquery&logoColor=f7768e" alt="TanStack Router/Query" />
+<img src="https://img.shields.io/badge/Redux_Toolkit-24283b?style=flat-square&labelColor=24283b&logo=redux&logoColor=bf91f3" alt="Redux Toolkit" />
 
 
 <br/>
