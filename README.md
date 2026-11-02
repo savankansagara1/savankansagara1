@@ -1,332 +1,367 @@
 <!--
-  HOW TO USE THIS FILE (this comment will NOT show on your GitHub profile)
-  1. On GitHub, create a repository named exactly: savankansagara1
-     (same as your username — if that repo already exists, open it instead)
-  2. Open README.md in that repo, delete everything in it.
-  3. Paste this ENTIRE file in, commit, and refresh https://github.com/savankansagara1
-  4. After pasting, also do these two manual fixes (a profile README cannot do them):
-     - Edit your profile bio / Experience to: SDE-1, Jul 2026–Present at eSparkBiz
-       (keep Intern, Jan–Jun 2026 below it)
-     - Pin this order: multi-ai-agentic-ecommerce, HireForge-AI, DocuMind-AI
+HOW THIS PROFILE WORKS
+GitHub READMEs cannot run JavaScript (scripts, iframes and CSS are stripped), so nothing here is a real app.
+"Live" means images generated from your actual GitHub data by external services each time they load (cached for hours).
+"Interactive" means: hoverable tech icons (tooltips), clickable icons, badges, project and live-demo links.
 
-  ABOUT THE DASHBOARD IN THIS README:
-  Everything below lives inside this one README:
-  - The typing header, GitHub stats, top languages, streak, profile summary
-    cards, trophies, and activity graph are LIVE images. GitHub re-loads them
-    automatically, so your commits, streak, and languages update on their own.
-    You never edit those numbers by hand.
-  - The tech icons are also live images (skillicons.dev) — hover / click them
-    on GitHub. That is as "interactive" as GitHub README allows: GitHub strips
-    JavaScript, so no README anywhere can run real clickable apps.
-  - ONLY the contribution snake needs a one-time setup, because it is a file,
-    not a live image. To switch it on:
-      a) In the savankansagara1 repo, create: .github/workflows/snake.yml
-      b) Paste the Platane/snk workflow from https://github.com/Platane/snk
-         with user_name: savankansagara1 and outputs to the `output` branch:
-         dist/github-contribution-grid-snake.svg (light) and
-         dist/github-contribution-grid-snake-dark.svg (dark)
-      c) Run the workflow once from the Actions tab. After that it re-runs
-         on its schedule and the snake in this README animates automatically.
-    Until that workflow runs, the snake image will simply show as broken —
-    you can delete the "Contribution snake" block if you don't want it.
-  Everything below this comment is the README itself.
+SETUP (once)
+1. The repo must be public and named exactly savankansagara1. Paste this file as README.md.
+2. Add the workflow as .github/workflows/snake.yml.
+3. Actions tab > "Generate snake" > Run workflow (once). This creates the "output" branch the snake image reads.
+4. Pin your 5 featured repos on your profile.
+
+IF A WIDGET EVER SHOWS A BROKEN IMAGE (public instances get rate limited or paused)
+Self-host that widget on your own free Vercel account, then replace its domain in this file:
+1. Fork the widget repo on GitHub.
+2. Vercel > Add New > Project > import your fork.
+3. Create a GitHub personal access token and add it as an environment variable, then Deploy.
+4. Replace the old domain in the image URLs below with your new xxx.vercel.app domain.
+Widget / repo to fork / environment variable:
+ Stats + top languages (currently github-stats-extended.vercel.app): stats-organization/github-stats-extended
+   env PAT_1 (classic token, scopes repo + read:user). Preset "Container". Track the release branch.
+   Alternative: the github-readme-stats-action workflow writes static SVGs into this repo.
+ Trophies: ryo-ma/github-profile-trophy. env GITHUB_TOKEN1 and GITHUB_TOKEN2 (scopes read:user + public_repo).
+   Then Vercel > Settings > Deployment Protection > "Only Preview Deployments", or the card renders blank.
+   Its README also lists community mirror domains you can swap in.
+ Activity graph: Ashutosh00710/github-readme-activity-graph. env TOKEN.
+ Profile summary cards: vn7n24fzkq/github-profile-summary-cards. env GITHUB_TOKEN (public_repo + read:user).
+ Streak, typing header, skill icons, banner and views counter are separate services; swap domains the same way if one dies.
+Optional: signing in on the stats-extended site lets its cards count private contributions.
 -->
 
 <div align="center">
 
-# Hi, I'm Savan Kansagara 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:1a1b27,55:24283b,100:70a5fd&section=header&text=Savan%20Kansagara&fontSize=58&fontColor=c0caf5&fontAlignY=38&animation=fadeIn&desc=AI%20%2F%20ML%20%26%20Generative%20AI%20%C2%B7%20Full-Stack%20Developer&descSize=20&descAlignY=60&descAlign=50" alt="Savan Kansagara" width="100%" />
 
-<a href="https://github.com/savankansagara1">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&lines=SDE-1+at+eSparkBiz+Technologies;AI+%2F+ML+%26+Generative+AI+Engineer;LangGraph+%7C+RAG+%7C+FastAPI+%7C+React;Full-Stack+Developer+%7C+MERN" alt="Typing: SDE-1 at eSparkBiz Technologies — AI / ML & Generative AI Engineer — LangGraph, RAG, FastAPI, React — Full-Stack Developer, MERN" />
-</a>
+<h3>Software Development Engineer I — AI / ML &amp; Generative AI — Full-Stack Developer</h3>
 
-### Software Development Engineer I · AI / ML & Generative AI · Full-Stack Developer
+<p><i>I build LLM-powered products end to end — agentic workflows, RAG pipelines, FastAPI / Node backends, and React interfaces.</i></p>
 
-**I build LLM-powered products end to end — agentic workflows, RAG pipelines, FastAPI / Node backends, and React interfaces.**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/savan-kansagara/)
-[![GitHub](https://img.shields.io/badge/GitHub-savankansagara1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/savankansagara1/)
-[![Email](https://img.shields.io/badge/Email-important.savan%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:important.savan@gmail.com)
-
-![Profile views](https://komarev.com/ghpvc/?username=savankansagara1&color=0e75b6&style=flat)
+<p>
+<a href="https://www.linkedin.com/in/savan-kansagara/"><img src="https://img.shields.io/badge/LinkedIn-savan--kansagara-24283b?style=for-the-badge&labelColor=70a5fd&logoColor=1a1b27" alt="LinkedIn" /></a>
+<a href="https://github.com/savankansagara1/"><img src="https://img.shields.io/badge/GitHub-savankansagara1-24283b?style=for-the-badge&logo=github&logoColor=1a1b27&labelColor=bf91f3" alt="GitHub" /></a>
+<a href="mailto:important.savan@gmail.com"><img src="https://img.shields.io/badge/Email-important.savan%40gmail.com-24283b?style=for-the-badge&logo=gmail&logoColor=1a1b27&labelColor=38bdae" alt="Email" /></a>
+</p>
 
 </div>
 
----
+<br/>
 
-## At a glance
+<h2 align="center">📊 GitHub Dashboard</h2>
+<p align="center"><sub>Everything below is generated from github.com/savankansagara1 when the page loads. Nothing here is typed in by hand.</sub></p>
 
-| | |
-|---|---|
-| **Current role** | SDE-1 at eSparkBiz Technologies Pvt. Ltd., Gujarat, India |
-| **Previously** | Software Developer Intern, eSparkBiz (Jan – Jun 2026) |
-| **Focus** | Agentic AI, LangGraph / LangChain, RAG, FastAPI, React, Node.js / TypeScript |
-| **Based in** | Gujarat, India — open to Ahmedabad, Gandhinagar & Remote (India) |
-| **Availability** | Serving notice period — last working day 15 Nov 2026, available after that |
-| **Education** | B.E. Information Technology, Government Engineering College, Modasa (2022 – 2026) |
+<!-- 1 · typing header -->
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=620&height=50&lines=SDE-1+at+eSparkBiz+Technologies;AI+%2F+ML+%26+Generative+AI+Engineer;LangGraph+%7C+RAG+%7C+FastAPI+%7C+React;Full-Stack+Developer+%7C+MERN" alt="SDE-1 at eSparkBiz Technologies | AI / ML and Generative AI Engineer | LangGraph, RAG, FastAPI, React | Full-Stack Developer, MERN" />
+</p>
 
-> **For recruiters:** I specialise in grounded, reliable AI — agents and RAG systems where answers come from real data, state-changing actions are confirmed by a human first, and the full stack (database → API → UI) is built to ship.
+<!-- 2 · stats + compact top languages -->
+<p align="center">
+<img height="195" src="https://github-stats-extended.vercel.app/api?username=savankansagara1&show_icons=true&include_all_commits=true&rank_icon=github&theme=tokyonight&hide_border=true" alt="GitHub stats" />
+<img height="195" src="https://github-stats-extended.vercel.app/api/top-langs/?username=savankansagara1&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&theme=tokyonight&hide_border=true" alt="Top languages, compact" />
+</p>
 
+<!-- 3 · top languages donut -->
+<p align="center">
+<img width="520" src="https://github-stats-extended.vercel.app/api/top-langs/?username=savankansagara1&layout=donut&langs_count=10&size_weight=0.5&count_weight=0.5&theme=tokyonight&hide_border=true" alt="Top languages, donut" />
+</p>
 
----
+<!-- 4 · streak -->
+<p align="center">
+<img src="https://streak-stats.demolab.com/?user=savankansagara1&theme=tokyonight&hide_border=true" alt="Contribution streak" />
+</p>
 
-## 📊 GitHub dashboard
+<!-- 5 · profile summary cards -->
+<p align="center">
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=savankansagara1&theme=tokyonight" alt="Profile details" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=savankansagara1&theme=tokyonight" alt="Stats" />
+</p>
+<p align="center">
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=savankansagara1&theme=tokyonight" alt="Repos per language" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=savankansagara1&theme=tokyonight" alt="Most commit language" />
+</p>
 
-> Everything in this section is a live widget inside this README — it updates automatically from my GitHub activity, with nothing to maintain by hand (except the snake, see its note below).
+<!-- 6 · trophies -->
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=savankansagara1&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=12" alt="GitHub trophies" />
+</p>
 
-### Stats & top languages
+<!-- 7 · contribution activity graph -->
+<p align="center">
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=savankansagara1&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20activity&days=31" alt="Contribution activity graph" />
+</p>
 
-<div align="center">
-
-<img height="165" alt="Savan's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=savankansagara1&show_icons=true&theme=tokyonight&hide_border=true" />
-<img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=savankansagara1&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
-### Contribution streak
-
-<div align="center">
-
-<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=savankansagara1&theme=tokyonight&hide_border=true" />
-
-</div>
-
-### Profile summary
-
-<div align="center">
-
-<img width="100%" alt="Profile details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=savankansagara1&theme=tokyonight" />
-
-<img height="180" alt="Stats summary" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=savankansagara1&theme=tokyonight" />
-<img height="180" alt="Repos per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=savankansagara1&theme=tokyonight" />
-<img height="180" alt="Most commit language" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=savankansagara1&theme=tokyonight" />
-
-</div>
-
-### Trophies
-
-<div align="center">
-
-<img width="100%" alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=savankansagara1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
-
-</div>
-
-### Activity graph
-
-<div align="center">
-
-<img width="100%" alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=savankansagara1&theme=tokyo-night&hide_border=true" />
-
-</div>
-
-### Languages in detail
-
-<div align="center">
-
-<img height="190" alt="Top languages — donut view" src="https://github-readme-stats.vercel.app/api/top-langs/?username=savankansagara1&layout=donut-vertical&theme=tokyonight&hide_border=true" />
-<img height="190" alt="Productive time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=savankansagara1&theme=tokyonight&utcOffset=5.5" />
-
-</div>
-
-> **Coding-stats note (Wakatime-style):** the donut + repos-per-language + most-commit-language cards above are the language breakdown for this profile. There is no Wakatime card here, because no Wakatime account / username was provided — if you connect Wakatime later, its card can be added in this spot.
-
-### Contribution snake
-
-<div align="center">
-
+<!-- 8 · snake (files come from snake.yml, output branch) -->
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/savankansagara1/savankansagara1/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/savankansagara1/savankansagara1/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/savankansagara1/savankansagara1/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution snake animation" width="100%" src="https://raw.githubusercontent.com/savankansagara1/savankansagara1/output/github-contribution-grid-snake.svg" />
 </picture>
+</p>
 
-</div>
+<!-- 9 · profile views -->
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=savankansagara1&label=Profile+views&color=70a5fd&style=for-the-badge" alt="Profile views" />
+</p>
 
-> **Snake setup (one-time):** this animation is generated by a GitHub Action, not a live image. Create `.github/workflows/snake.yml` in the `savankansagara1` repo using [Platane/snk](https://github.com/Platane/snk) with `user_name: savankansagara1`, outputting the light and dark SVGs to the `output` branch — then run it once from the Actions tab. Until then this image will appear broken; delete this block if you don't want the snake.
+<br/>
 
----
+<h2 align="center">🧠 About</h2>
 
-## Experience
+I build LLM-powered products end to end, from the database schema and the REST API to the React screen someone actually clicks. Three things shape how I work:
 
-### SDE-1 — eSparkBiz Technologies Pvt. Ltd. · Jul 2026 – Present
+- **Grounded, reliable AI.** An agent's answers should come from real data, not from whatever the model feels like saying.
+- **Humans stay in control.** Before an agent does anything that changes state, it stops and asks for confirmation.
+- **The plumbing counts as much as the model call.** Schemas, auth, caching, tests and deployment decide whether an AI feature holds up.
 
-**Multi-AI Agentic E-Commerce System (Internal R&D)** — Python, FastAPI, LangGraph, LangChain, PostgreSQL, SQLAlchemy, React, LangSmith
+<h2 align="center">🎯 Currently focused on</h2>
 
-- Architected a multi-agent shopping assistant in LangGraph: an orchestrator + 4 domain subgraphs and 16 tools, with hybrid regex + LLM intent routing and multi-intent decomposition
-- Built a PostgreSQL-backed RAG pipeline grounded in a 20-table schema, so product and price answers come from real catalog data — not hallucinated data
-- Engineered a human-in-the-loop confirmation barrier gating 7 state-changing actions, ACID atomic checkout, and per-user data isolation
-- Validated with 42 integration tests across a 20-endpoint FastAPI backend, with LangSmith tracing
+<table align="center">
+<tr>
+<td width="33%" valign="top"><b>Multi-agent systems</b><br/><sub>An orchestrator plus specialised agents, not one giant prompt.</sub></td>
+<td width="33%" valign="top"><b>RAG quality</b><br/><sub>Chunking, retrieval, and grounding answers in a real database schema.</sub></td>
+<td width="33%" valign="top"><b>Human-in-the-loop design</b><br/><sub>Confirmation steps that keep a person in charge of state-changing actions.</sub></td>
+</tr>
+</table>
 
-### Software Developer Intern — eSparkBiz Technologies Pvt. Ltd. · Jan 2026 – Jun 2026
-
-**Quick Bites — Food Delivery Platform** — Node.js, Express, TypeScript, Prisma, MySQL, Redis, Gemini API, React
-
-- Worked in a 5-member team on a multi-tenant food ordering platform: 69-table MySQL schema, 23 modules, 130+ REST endpoints, 7 roles
-- Personally built the Restaurant, Cart, and Orders modules, with Redis-backed cart operations under 100 ms on average
-- Built the AI module with Gemini 2.5 Flash and 9 function-calling tools in an agentic loop, with Redis-persisted chat history
-- Built live order tracking (Leaflet + OpenStreetMap) and the React frontend with TanStack Query, Redux, and React Hook Form
-
----
-
-## Tech stack
-
-### Technologies at a glance — icon grid
+<h2 align="center">🧰 Tech Arsenal</h2>
 
 <div align="center">
 
-**Languages & core**
+<b>Languages &amp; Core</b><br/>
+<a href="#-featured-projects"><img src="https://skillicons.dev/icons?i=py,ts,js,c&perline=10&theme=dark" alt="Python, TypeScript, JavaScript, C. Click to see where I use them" title="Python, TypeScript, JavaScript, C. Click to see where I use them" /></a><br/>
+<sub>Languages</sub><br/>
+<img src="https://img.shields.io/badge/Python-24283b?style=flat-square&labelColor=24283b&logo=python&logoColor=70a5fd" alt="Python" />
+<img src="https://img.shields.io/badge/TypeScript-24283b?style=flat-square&labelColor=24283b&logo=typescript&logoColor=70a5fd" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-24283b?style=flat-square&labelColor=24283b&logo=javascript&logoColor=70a5fd" alt="JavaScript" />
+<img src="https://img.shields.io/badge/SQL-24283b?style=flat-square&labelColor=24283b" alt="SQL" />
+<img src="https://img.shields.io/badge/C-24283b?style=flat-square&labelColor=24283b&logo=c&logoColor=70a5fd" alt="C" /><br/>
+<sub>AI / ML</sub><br/>
+<img src="https://img.shields.io/badge/LangGraph-24283b?style=flat-square&labelColor=24283b&logo=langgraph&logoColor=38bdae" alt="LangGraph" />
+<img src="https://img.shields.io/badge/LangChain-24283b?style=flat-square&labelColor=24283b&logo=langchain&logoColor=38bdae" alt="LangChain" />
+<img src="https://img.shields.io/badge/RAG-24283b?style=flat-square&labelColor=24283b" alt="RAG" />
+<img src="https://img.shields.io/badge/Gemini_API-24283b?style=flat-square&labelColor=24283b&logo=googlegemini&logoColor=38bdae" alt="Gemini API" />
+<img src="https://img.shields.io/badge/Groq-24283b?style=flat-square&labelColor=24283b" alt="Groq" />
+<img src="https://img.shields.io/badge/Hugging_Face-24283b?style=flat-square&labelColor=24283b&logo=huggingface&logoColor=38bdae" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/LangSmith-24283b?style=flat-square&labelColor=24283b" alt="LangSmith" />
+<img src="https://img.shields.io/badge/scikit--learn-24283b?style=flat-square&labelColor=24283b&logo=scikitlearn&logoColor=38bdae" alt="scikit-learn" />
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,ts,js,html,css&perline=5" alt="Languages: Python, TypeScript, JavaScript, HTML, CSS" /></a>
+<br/><br/>
 
-**Frontend**
+<b>Frontend</b><br/>
+<a href="#-featured-projects"><img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind&perline=10&theme=dark" alt="React, Next.js, Redux Toolkit, Tailwind CSS. Click to see where I use them" title="React, Next.js, Redux Toolkit, Tailwind CSS. Click to see where I use them" /></a><br/>
+<img src="https://img.shields.io/badge/React-24283b?style=flat-square&labelColor=24283b&logo=react&logoColor=bf91f3" alt="React" />
+<img src="https://img.shields.io/badge/Next.js-24283b?style=flat-square&labelColor=24283b&logo=nextdotjs&logoColor=bf91f3" alt="Next.js" />
+<img src="https://img.shields.io/badge/Redux_Toolkit-24283b?style=flat-square&labelColor=24283b&logo=redux&logoColor=bf91f3" alt="Redux Toolkit" />
+<img src="https://img.shields.io/badge/TanStack_Query-24283b?style=flat-square&labelColor=24283b&logo=reactquery&logoColor=bf91f3" alt="TanStack Query" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-24283b?style=flat-square&labelColor=24283b&logo=tailwindcss&logoColor=bf91f3" alt="Tailwind CSS" />
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,ts,js,html,css&perline=8" alt="Frontend: React, Next.js, Redux, Tailwind CSS, TypeScript, JavaScript, HTML, CSS" /></a>
+<br/><br/>
 
-**Backend, APIs & databases**
+<b>Backend / APIs &amp; Databases</b><br/>
+<a href="#-featured-projects"><img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,mongodb,mysql,redis,prisma&perline=10&theme=dark" alt="FastAPI, Node.js, Express, PostgreSQL, MongoDB, MySQL, Redis, Prisma. Click to see where I use them" title="FastAPI, Node.js, Express, PostgreSQL, MongoDB, MySQL, Redis, Prisma. Click to see where I use them" /></a><br/>
+<img src="https://img.shields.io/badge/FastAPI-24283b?style=flat-square&labelColor=24283b&logo=fastapi&logoColor=38bdae" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Node.js-24283b?style=flat-square&labelColor=24283b&logo=nodedotjs&logoColor=38bdae" alt="Node.js" />
+<img src="https://img.shields.io/badge/Express-24283b?style=flat-square&labelColor=24283b&logo=express&logoColor=38bdae" alt="Express" />
+<img src="https://img.shields.io/badge/PostgreSQL-24283b?style=flat-square&labelColor=24283b&logo=postgresql&logoColor=38bdae" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/MongoDB-24283b?style=flat-square&labelColor=24283b&logo=mongodb&logoColor=38bdae" alt="MongoDB" />
+<img src="https://img.shields.io/badge/MySQL-24283b?style=flat-square&labelColor=24283b&logo=mysql&logoColor=38bdae" alt="MySQL" />
+<img src="https://img.shields.io/badge/Redis-24283b?style=flat-square&labelColor=24283b&logo=redis&logoColor=38bdae" alt="Redis" />
+<img src="https://img.shields.io/badge/Pinecone-24283b?style=flat-square&labelColor=24283b" alt="Pinecone" />
+<img src="https://img.shields.io/badge/Prisma-24283b?style=flat-square&labelColor=24283b&logo=prisma&logoColor=38bdae" alt="Prisma" />
+<img src="https://img.shields.io/badge/SQLAlchemy-24283b?style=flat-square&labelColor=24283b&logo=sqlalchemy&logoColor=38bdae" alt="SQLAlchemy" />
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,python,prisma,postgres,mongodb,mysql,redis&perline=9" alt="Backend and databases: Node.js, Express, FastAPI, Python, Prisma, PostgreSQL, MongoDB, MySQL, Redis" /></a>
+<br/><br/>
 
-**Tools & platforms**
-
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,vercel,aws&perline=7" alt="Tools: Git, GitHub, Docker, Postman, VS Code, Vercel, AWS" /></a>
+<b>Tools &amp; Platforms</b><br/>
+<a href="#-featured-projects"><img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,vercel,aws&perline=10&theme=dark" alt="Git, GitHub, Docker, Postman, VS Code, Vercel, AWS. Click to see where I use them" title="Git, GitHub, Docker, Postman, VS Code, Vercel, AWS. Click to see where I use them" /></a><br/>
+<img src="https://img.shields.io/badge/Git-24283b?style=flat-square&labelColor=24283b&logo=git&logoColor=e0af68" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-24283b?style=flat-square&labelColor=24283b&logo=github&logoColor=e0af68" alt="GitHub" />
+<img src="https://img.shields.io/badge/Docker-24283b?style=flat-square&labelColor=24283b&logo=docker&logoColor=e0af68" alt="Docker" />
+<img src="https://img.shields.io/badge/Postman-24283b?style=flat-square&labelColor=24283b&logo=postman&logoColor=e0af68" alt="Postman" />
+<img src="https://img.shields.io/badge/VS_Code-24283b?style=flat-square&labelColor=24283b" alt="VS Code" />
+<img src="https://img.shields.io/badge/Vercel-24283b?style=flat-square&labelColor=24283b&logo=vercel&logoColor=e0af68" alt="Vercel" />
+<img src="https://img.shields.io/badge/Render-24283b?style=flat-square&labelColor=24283b&logo=render&logoColor=e0af68" alt="Render" />
+<img src="https://img.shields.io/badge/AWS_%28EC2_%2F_S3_%2F_IAM_basics%29-24283b?style=flat-square&labelColor=24283b" alt="AWS (EC2 / S3 / IAM basics)" />
 
 </div>
 
-### Detailed stack
+<br/>
 
-**AI / ML & Data**
+<h2 align="center">🚀 Featured Projects</h2>
 
-![LangGraph](https://img.shields.io/badge/LangGraph-Agentic%20Workflows-1C3C3C?style=flat)
-![LangChain](https://img.shields.io/badge/LangChain-LLM%20Apps-1C3C3C?style=flat)
-![RAG](https://img.shields.io/badge/RAG-Pipelines-blue?style=flat)
-![Gemini API](https://img.shields.io/badge/Gemini-API-8E75B2?style=flat)
-![Groq](https://img.shields.io/badge/Groq-LLM%20Inference-F55036?style=flat)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Models-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![LangSmith](https://img.shields.io/badge/LangSmith-Tracing-1C3C3C?style=flat)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+<table align="center">
+<tr>
+<td colspan="2" valign="top"><b>Multi-AI Agentic E-Commerce System</b><br/><sub>A shopping assistant built as a team of specialised agents instead of one giant prompt: a LangGraph orchestrator hands each request to one of 4 domain subgraphs that share 16 tools.</sub><br/><sub><code>Python</code> · <code>FastAPI</code> · <code>LangGraph</code> · <code>LangChain</code> · <code>PostgreSQL</code> · <code>SQLAlchemy</code> · <code>React</code> · <code>LangSmith</code></sub><br/><a href="https://github.com/savankansagara1/multi-ai-agentic-ecommerce"><img src="https://img.shields.io/badge/Source_code-GitHub-24283b?style=for-the-badge&logo=github&logoColor=bf91f3&labelColor=24283b" alt="Source code" /></a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><b>HireForge AI</b><br/><sub>An AI interview-prep platform. Gemini produces a structured-JSON report, and an ATS-friendly resume is rendered to PDF with Puppeteer.</sub><br/><sub><code>React</code> · <code>Node.js</code> · <code>MongoDB</code> · <code>Gemini API</code> · <code>Puppeteer</code></sub><br/><a href="https://hire-forge-ai.vercel.app/"><img src="https://img.shields.io/badge/Live_demo-open-70a5fd?style=for-the-badge&logo=vercel&logoColor=1a1b27&labelColor=70a5fd" alt="Live demo" /></a>
+<a href="https://github.com/savankansagara1/HireForge-AI"><img src="https://img.shields.io/badge/Source_code-GitHub-24283b?style=for-the-badge&logo=github&logoColor=bf91f3&labelColor=24283b" alt="Source code" /></a></td>
+<td width="50%" valign="top"><b>DocuMind AI</b><br/><sub>A RAG chatbot for your documents: PDF to chunks to embeddings to Pinecone, with Groq answering from what was retrieved.</sub><br/><sub><code>React</code> · <code>Node.js</code> · <code>Express</code> · <code>LangChain</code> · <code>Pinecone</code> · <code>Groq</code> · <code>Gemini Embeddings</code></sub><br/><a href="https://docu-mind-ai-zeta.vercel.app/"><img src="https://img.shields.io/badge/Live_demo-open-70a5fd?style=for-the-badge&logo=vercel&logoColor=1a1b27&labelColor=70a5fd" alt="Live demo" /></a>
+<a href="https://github.com/savankansagara1/DocuMind-AI"><img src="https://img.shields.io/badge/Source_code-GitHub-24283b?style=for-the-badge&logo=github&logoColor=bf91f3&labelColor=24283b" alt="Source code" /></a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><b>Quick Bites</b><br/><sub>A multi-tenant food delivery platform built in a 5-member team. I built the Restaurant, Cart and Orders modules.</sub><br/><sub><code>Node.js</code> · <code>Express</code> · <code>TypeScript</code> · <code>Prisma</code> · <code>MySQL</code> · <code>Redis</code> · <code>Gemini API</code> · <code>React</code></sub><br/><a href="https://github.com/savankansagara1/online-food-ordering-system"><img src="https://img.shields.io/badge/Source_code-GitHub-24283b?style=for-the-badge&logo=github&logoColor=bf91f3&labelColor=24283b" alt="Source code" /></a></td>
+<td width="50%" valign="top"><b>URL Shortener</b><br/><sub>A full-stack URL shortener where the small details were the point.</sub><br/><sub><code>React</code> · <code>Node.js</code> · <code>Express</code> · <code>MongoDB</code> · <code>TanStack Router/Query</code> · <code>Redux Toolkit</code></sub><br/><a href="https://url-shortner-mu-three.vercel.app/"><img src="https://img.shields.io/badge/Live_demo-open-70a5fd?style=for-the-badge&logo=vercel&logoColor=1a1b27&labelColor=70a5fd" alt="Live demo" /></a>
+<a href="https://github.com/savankansagara1/Url-Shortner"><img src="https://img.shields.io/badge/Source_code-GitHub-24283b?style=for-the-badge&logo=github&logoColor=bf91f3&labelColor=24283b" alt="Source code" /></a></td>
+</tr>
+</table>
 
-**Languages**
+<h3>Multi-AI Agentic E-Commerce System</h3>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-Databases-4479A1?style=flat)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
+<p><a href="https://github.com/savankansagara1/multi-ai-agentic-ecommerce"><img src="https://img.shields.io/badge/Source_code-GitHub-24283b?style=for-the-badge&logo=github&logoColor=bf91f3&labelColor=24283b" alt="Source code" /></a></p>
 
-**Frontend**
+<p>A shopping assistant built as a team of specialised agents instead of one giant prompt: a LangGraph orchestrator hands each request to one of 4 domain subgraphs that share 16 tools.</p>
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=flat&logo=redux&logoColor=white)
-![TanStack Query](https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+<b>Why it's interesting</b>
+<ul>
+<li>Routing is hybrid: regex rules and an LLM decide where a request goes.</li>
+<li>Product answers come from PostgreSQL RAG grounded in a 20-table schema, so the catalog isn't something the model gets to guess.</li>
+<li>7 state-changing actions sit behind a human-in-the-loop confirmation step.</li>
+<li>Checkout is ACID-atomic, data is isolated per user, and 42 integration tests cover a 20-endpoint FastAPI backend.</li>
+</ul>
 
-**Backend & Databases**
+<p><img src="https://img.shields.io/badge/subgraphs-4-70a5fd?style=flat-square&labelColor=1a1b27" alt="subgraphs: 4" />
+<img src="https://img.shields.io/badge/tools-16-70a5fd?style=flat-square&labelColor=1a1b27" alt="tools: 16" />
+<img src="https://img.shields.io/badge/schema-20_tables-70a5fd?style=flat-square&labelColor=1a1b27" alt="schema: 20 tables" />
+<img src="https://img.shields.io/badge/confirmed_actions-7-70a5fd?style=flat-square&labelColor=1a1b27" alt="confirmed actions: 7" />
+<img src="https://img.shields.io/badge/integration_tests-42-70a5fd?style=flat-square&labelColor=1a1b27" alt="integration tests: 42" />
+<img src="https://img.shields.io/badge/endpoints-20-70a5fd?style=flat-square&labelColor=1a1b27" alt="endpoints: 20" /></p>
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-Vector%20DB-000000?style=flat)
+<b>Stack</b><br/>
+<img src="https://skillicons.dev/icons?i=py,fastapi,postgres,react&theme=dark" alt="Multi-AI Agentic E-Commerce System stack icons" /><br/>
+<sub><code>Python</code> · <code>FastAPI</code> · <code>LangGraph</code> · <code>LangChain</code> · <code>PostgreSQL</code> · <code>SQLAlchemy</code> · <code>React</code> · <code>LangSmith</code></sub>
 
-**Tools & Platforms**
+<hr/>
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat)
-![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3%20%7C%20IAM-232F3E?style=flat&logo=amazonaws&logoColor=white)
+<h3>HireForge AI</h3>
 
----
+<p><a href="https://hire-forge-ai.vercel.app/"><img src="https://img.shields.io/badge/Live_demo-open-70a5fd?style=for-the-badge&logo=vercel&logoColor=1a1b27&labelColor=70a5fd" alt="Live demo" /></a>
+<a href="https://github.com/savankansagara1/HireForge-AI"><img src="https://img.shields.io/badge/Source_code-GitHub-24283b?style=for-the-badge&logo=github&logoColor=bf91f3&labelColor=24283b" alt="Source code" /></a></p>
 
-## Featured projects
+<p>An AI interview-prep platform. Gemini produces a structured-JSON report, and an ATS-friendly resume is rendered to PDF with Puppeteer.</p>
 
-| Project | What it proves | Links |
-|---|---|---|
-| **Multi-AI Agentic E-Commerce** | LangGraph agents, RAG, human-in-the-loop safety, ACID checkout | [GitHub](https://github.com/savankansagara1/multi-ai-agentic-ecommerce) |
-| **HireForge AI** | Full-stack AI product, Gemini pipelines, PDF generation | [Live](https://hire-forge-ai.vercel.app/) · [GitHub](https://github.com/savankansagara1/HireForge-AI) |
-| **DocuMind AI** | End-to-end RAG chatbot with vector search | [Live](https://docu-mind-ai-zeta.vercel.app/) · [GitHub](https://github.com/savankansagara1/DocuMind-AI) |
-| **Quick Bites** | Large-scale MERN-style platform, Redis, AI chat module | [GitHub](https://github.com/savankansagara1/online-food-ordering-system) |
-| **URL Shortener** | Clean layered backend, JWT auth, real-time React frontend | [Live](https://url-shortner-mu-three.vercel.app/) · [GitHub](https://github.com/savankansagara1/Url-Shortner) |
+<b>Why it's interesting</b>
+<ul>
+<li>The model's output is shaped as structured JSON, so the interface can render it instead of parsing prose.</li>
+<li>JWT auth sits in front of everything.</li>
+<li>The resume goes from AI output to a real PDF, which is the step that makes it usable.</li>
+</ul>
 
-### 1. Multi-AI Agentic E-Commerce System
+<b>Stack</b><br/>
+<img src="https://skillicons.dev/icons?i=react,nodejs,mongodb&theme=dark" alt="HireForge AI stack icons" /><br/>
+<sub><code>React</code> · <code>Node.js</code> · <code>MongoDB</code> · <code>Gemini API</code> · <code>Puppeteer</code></sub>
 
-> Orchestrator + 4 domain subgraphs · 16 tools · 20 endpoints · 42 integration tests
+<hr/>
 
-A multi-agent shopping assistant built with LangGraph, FastAPI, and PostgreSQL. Hybrid intent routing, an isolated security handler against prompt injection, human confirmation before any state-changing action, and answers grounded in a 20-table catalog schema.
+<h3>DocuMind AI</h3>
 
-**Stack:** Python · FastAPI · LangGraph · LangChain · PostgreSQL · SQLAlchemy · React · LangSmith
+<p><a href="https://docu-mind-ai-zeta.vercel.app/"><img src="https://img.shields.io/badge/Live_demo-open-70a5fd?style=for-the-badge&logo=vercel&logoColor=1a1b27&labelColor=70a5fd" alt="Live demo" /></a>
+<a href="https://github.com/savankansagara1/DocuMind-AI"><img src="https://img.shields.io/badge/Source_code-GitHub-24283b?style=for-the-badge&logo=github&logoColor=bf91f3&labelColor=24283b" alt="Source code" /></a></p>
 
-→ [View the code](https://github.com/savankansagara1/multi-ai-agentic-ecommerce)
+<p>A RAG chatbot for your documents: PDF to chunks to embeddings to Pinecone, with Groq answering from what was retrieved.</p>
 
-### 2. HireForge AI — AI-Powered Interview Prep Platform
+<b>Why it's interesting</b>
+<ul>
+<li>The whole retrieval pipeline is visible end to end, from chunking to vectors to the answer.</li>
+<li>Answers are built from a top-3 similarity search rather than from the model's memory.</li>
+<li>A 10-turn session memory keeps follow-up questions in context.</li>
+</ul>
 
-> 8 REST endpoints · 2 Gemini pipelines · ATS resume → PDF
+<p><img src="https://img.shields.io/badge/retrieval-top--3-70a5fd?style=flat-square&labelColor=1a1b27" alt="retrieval: top-3" />
+<img src="https://img.shields.io/badge/session_memory-10_turns-70a5fd?style=flat-square&labelColor=1a1b27" alt="session memory: 10 turns" /></p>
 
-A full-stack interview-prep platform with JWT auth (token blacklisting, httpOnly cookie sessions), a Gemini structured-JSON report generator, an HTML resume writer built on a hand-crafted 14-property JSON schema, and Puppeteer PDF generation fixed for production Chrome availability.
+<b>Stack</b><br/>
+<img src="https://skillicons.dev/icons?i=react,nodejs,express&theme=dark" alt="DocuMind AI stack icons" /><br/>
+<sub><code>React</code> · <code>Node.js</code> · <code>Express</code> · <code>LangChain</code> · <code>Pinecone</code> · <code>Groq</code> · <code>Gemini Embeddings</code></sub>
 
-**Stack:** React · Node.js · MongoDB · Gemini API · Puppeteer
+<hr/>
 
-→ [Live demo](https://hire-forge-ai.vercel.app/) · [View the code](https://github.com/savankansagara1/HireForge-AI)
+<h3>Quick Bites</h3>
 
-### 3. DocuMind AI — RAG Chatbot
+<p><a href="https://github.com/savankansagara1/online-food-ordering-system"><img src="https://img.shields.io/badge/Source_code-GitHub-24283b?style=for-the-badge&logo=github&logoColor=bf91f3&labelColor=24283b" alt="Source code" /></a></p>
 
-> 5-stage RAG pipeline · 3 external AI APIs · Top-3 similarity search
+<p>A multi-tenant food delivery platform built in a 5-member team. I built the Restaurant, Cart and Orders modules.</p>
 
-Chat with your documents: ingest → 500-char chunking with 100-char overlap → Gemini embeddings → Pinecone storage → Groq LLM retrieval. UUID namespace isolation per document, 5x concurrent Pinecone operations, and a 10-turn sliding-window session memory.
+<b>Why it's interesting</b>
+<ul>
+<li>The cart lives in Redis and averages under 100ms.</li>
+<li>A Gemini AI module works through 9 function-calling tools.</li>
+<li>Live order tracking keeps customers up to date.</li>
+</ul>
 
-**Stack:** React · Node.js · Express · LangChain · Pinecone · Groq · Gemini Embeddings
+<p><img src="https://img.shields.io/badge/team-5_members-70a5fd?style=flat-square&labelColor=1a1b27" alt="team: 5 members" />
+<img src="https://img.shields.io/badge/Redis_cart-under_100ms_avg-70a5fd?style=flat-square&labelColor=1a1b27" alt="Redis cart: under 100ms avg" />
+<img src="https://img.shields.io/badge/AI_tools-9-70a5fd?style=flat-square&labelColor=1a1b27" alt="AI tools: 9" /></p>
 
-→ [Live demo](https://docu-mind-ai-zeta.vercel.app/) · [View the code](https://github.com/savankansagara1/DocuMind-AI)
+<b>Stack</b><br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,ts,prisma,mysql,redis,react&theme=dark" alt="Quick Bites stack icons" /><br/>
+<sub><code>Node.js</code> · <code>Express</code> · <code>TypeScript</code> · <code>Prisma</code> · <code>MySQL</code> · <code>Redis</code> · <code>Gemini API</code> · <code>React</code></sub>
 
-### 4. Quick Bites — Food Delivery Platform
+<hr/>
 
-> 130+ REST endpoints · 69-table schema · Cart operations under 100 ms
+<h3>URL Shortener</h3>
 
-A multi-tenant food ordering platform built with a 5-member team. I personally built the Restaurant, Cart, and Orders modules, the Gemini AI module (9 function-calling tools in an agentic loop), and live order tracking with Leaflet + OpenStreetMap.
+<p><a href="https://url-shortner-mu-three.vercel.app/"><img src="https://img.shields.io/badge/Live_demo-open-70a5fd?style=for-the-badge&logo=vercel&logoColor=1a1b27&labelColor=70a5fd" alt="Live demo" /></a>
+<a href="https://github.com/savankansagara1/Url-Shortner"><img src="https://img.shields.io/badge/Source_code-GitHub-24283b?style=for-the-badge&logo=github&logoColor=bf91f3&labelColor=24283b" alt="Source code" /></a></p>
 
-**Stack:** Node.js · Express · TypeScript · Prisma · MySQL · Redis · Gemini API · React · TanStack Query · Redux
+<p>A full-stack URL shortener where the small details were the point.</p>
 
-→ [View the code](https://github.com/savankansagara1/online-food-ordering-system)
+<b>Why it's interesting</b>
+<ul>
+<li>A layered backend keeps routes, logic and data access apart.</li>
+<li>NanoID generation retries on collision, and click tracking is atomic.</li>
+<li>JWT auth, with TanStack Router/Query and Redux Toolkit on the front end.</li>
+</ul>
 
-### 5. URL Shortener
+<b>Stack</b><br/>
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,redux&theme=dark" alt="URL Shortener stack icons" /><br/>
+<sub><code>React</code> · <code>Node.js</code> · <code>Express</code> · <code>MongoDB</code> · <code>TanStack Router/Query</code> · <code>Redux Toolkit</code></sub>
 
-> 4-layer backend · Atomic click tracking · O(1) indexed redirects
 
-A full-stack URL shortener with a Routes → Controllers → Services → DAOs backend, JWT auth via httpOnly cookies, a NanoID collision-retry loop, and a React 19 frontend with TanStack Router, React Query auto-polling, and Redux Toolkit.
+<br/>
 
-**Stack:** React · Node.js · Express · MongoDB · TanStack Router / Query · Redux Toolkit
+<h2 align="center">🛣️ Experience Timeline</h2>
 
-→ [Live demo](https://url-shortner-mu-three.vercel.app/) · [View the code](https://github.com/savankansagara1/Url-Shortner)
+<table align="center">
+<tr><td colspan="2"><sub><b>Now</b></sub></td></tr>
+<tr>
+<td align="center" valign="top"><img src="https://img.shields.io/badge/Jun_2025_to_present-70a5fd?style=flat-square&labelColor=70a5fd" alt="Jun 2025 to present" /></td>
+<td><b>Freelance AI/ML &amp; Full-Stack Developer</b><br/><sub>Taking AI/ML and full-stack work from idea to deployed product: LLM features, backend APIs and React interfaces.</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><img src="https://img.shields.io/badge/Jul_2026_to_present-70a5fd?style=flat-square&labelColor=70a5fd" alt="Jul 2026 to present" /></td>
+<td><b>SDE-1 at eSparkBiz Technologies</b><br/><sub>Architected the Multi-AI Agentic E-Commerce System: a LangGraph orchestrator, 4 domain subgraphs, 16 tools and human confirmation on state-changing actions.</sub></td>
+</tr>
+<tr><td colspan="2"><sub><b>Earlier</b></sub></td></tr>
+<tr>
+<td align="center" valign="top"><img src="https://img.shields.io/badge/Jan_to_Jun_2026-bf91f3?style=flat-square&labelColor=bf91f3" alt="Jan to Jun 2026" /></td>
+<td><b>Software Developer Intern at eSparkBiz Technologies</b><br/><sub>Built the Restaurant, Cart and Orders modules of Quick Bites with a 5-member team, including a Redis cart under 100ms and a Gemini module with 9 function-calling tools.</sub></td>
+</tr>
+</table>
 
----
+<h2 align="center">🎓 Achievements &amp; Education</h2>
 
-## Certifications & highlights
+<table align="center">
+<tr><td><b>Education</b></td><td>B.E. Information Technology, Government Engineering College, Modasa, 2022–2026</td></tr>
+<tr><td><b>Certification</b></td><td>Python for Data Science, AI &amp; Development — IBM, through Coursera</td></tr>
+<tr><td><b>Hackathon</b></td><td>Runner-up, CVMU Hackathon 2025</td></tr>
+<tr><td><b>Community</b></td><td>Unstop Campus Ambassador, 2024–2025</td></tr>
+</table>
 
-- **Certification:** Python for Data Science, AI & Development — IBM, through Coursera
-- **Runner-up:** CVMU Hackathon 2025, CVM University (February 2025)
-- **Unstop Campus Ambassador (2024–2025):** Selected from 16,000+ applicants
-
-## Education
-
-**B.E. Information Technology** — Government Engineering College, Modasa, Gujarat
-Sep 2022 – Jun 2026
-
----
-
-## Let's connect
+<br/>
 
 <div align="center">
 
-I'm interested in **AI Engineer, GenAI / LLM, Agentic AI, and Full-Stack / MERN roles** — in Ahmedabad, Gandhinagar, or remote in India.
+<h2>Let's build something</h2>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-savan--kansagara-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/savan-kansagara/)
-[![Email](https://img.shields.io/badge/Email-important.savan%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:important.savan@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-savankansagara1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/savankansagara1/)
+<p>
+<a href="https://www.linkedin.com/in/savan-kansagara/"><img src="https://img.shields.io/badge/LinkedIn-savan--kansagara-24283b?style=for-the-badge&labelColor=70a5fd&logoColor=1a1b27" alt="LinkedIn" /></a>
+<a href="https://github.com/savankansagara1/"><img src="https://img.shields.io/badge/GitHub-savankansagara1-24283b?style=for-the-badge&logo=github&logoColor=1a1b27&labelColor=bf91f3" alt="GitHub" /></a>
+<a href="mailto:important.savan@gmail.com"><img src="https://img.shields.io/badge/Email-important.savan%40gmail.com-24283b?style=for-the-badge&logo=gmail&logoColor=1a1b27&labelColor=38bdae" alt="Email" /></a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:1a1b27,55:24283b,100:70a5fd&section=footer" alt="" width="100%" />
 
 </div>
